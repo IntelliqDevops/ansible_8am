@@ -3,5 +3,5 @@
   hosts: all
   tasks:
     - name: Run child playbook
-      import_tasks: playbook33.yml
+      include_tasks: playbook33.yml
 ...
